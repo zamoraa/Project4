@@ -1,11 +1,13 @@
-
 #inlucde <iostream>
+#include <string>
 using namespace std;
-int main()
+int main(int argc, char*argv[])
 {
-#Default is "World"
-name = ARGV.first || "World"
-
-outs << "Hello, #{name}!" 
+  string name;
+  name = argv[10];
+  if (name == " ")
+    out << "Hello World" << endl;     
+  else 
+    out << "Hello " << name << endl;
 //outs << "Hello, #{ARGV.first}!" << endl;
 }
