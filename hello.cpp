@@ -5,6 +5,6 @@ int main()
 {
 //Default is "World"
 name = ARGV.first || "World"
-outs << "Hello, #{ARGV.first}!" 
+outs << "Hello, #{name}!" 
 //outs << "Hello, #{ARGV.first}!" << endl;
 }
